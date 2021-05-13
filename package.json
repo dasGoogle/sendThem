@@ -1,0 +1,16 @@
+{
+  "name": "sendthem",
+  "version": "1.0.0",
+  "description": "A mail script to send email attachments to recipients specified in an Excel Spreadsheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aaron Schlitt",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "node-xlsx": "^0.16.1",
+    "nodemailer": "^6.6.0"
+  }
+}
